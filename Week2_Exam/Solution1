@@ -1,1 +1,31 @@
+d="SiLeNt CAT"
+c="LisTen AcT"
+s=d.lower()
+t=c.lower()
+l=list(s)
+m=list(t)
+d=[]
+a=0
+c=0
+for i in l:
+	if i==" ":
+		l.remove(i)
+
+for i in m:
+	if i==" ":
+		m.remove(i)
+for k in l:
+	if k in d:
+		a=a+1
+	else:
+		d.append(k)
+for j in m:
+	if j in d:
+		c=c+1
+
+if(c==len(l) and c==len(m)):
+	print("true")
+else:
+	print("false")
+
 
