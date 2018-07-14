@@ -1,1 +1,15 @@
-
+import java.util.*;
+public class solution1{
+	public static void main(String[] args) {
+    	Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		fun(a,b);
+		}
+	
+    public static void fun(int a,int b) {
+        int c=Integer.bitCount(a^b);
+        System.out.println(c);
+    }
+    
+}
